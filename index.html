@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sytyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+  <title>Beauty of Galaxies</title>
+</head>
+<body>
+
+  <section class="show">
+    <header>
+      <h2 class="logo">Space</h2>
+      <div class="toggle" ></div>
+    </header>
+    <video src="Milky Way Glowing At Night.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2> Is it not Careless to become too Local</h2> 
+      <h3>When There Are 4 Hundred Billion Stars In Our Galaxy Alone!</h3>
+      <p>"Everything turns, rotates, spins, circles, loops, pulsates, resonates, and repeats. Circles of life, born from pulses of light, vibrate to breathe, 
+        while spiraling outwards for infinity through the lens of time... It is quite the big galaxy, perspective is ever a good thing. It is small compared 
+        to the Universe, on of an estimated trillion, more perspective."
+      </p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="icons8-youtube-47.png"></a></li>
+      <li><a href="#"><img src="icons8-linkedin-48.png"></a></li>
+      <li><a href="#"><img src="icons8-twitter-48.png"></a></li>
+      <li><a href="#"><img src="icons8-facebook-48.png"></a></li>
+      <li><a href="#"><img src="icons8-instagram-48.png"></a></li>
+
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Explore</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle=document.querySelector('.toggle')
+    const show=document.querySelector('.show')
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        show.classList.toggle('active');
+      })
+
+  </script>
+</body>
+</html>
+
